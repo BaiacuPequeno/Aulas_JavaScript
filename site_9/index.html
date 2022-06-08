@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Lista de pães</h1>
+    </header>
+
+    <br /><br /><br />
+
+    <section class="cont">
+      <form id="_form">
+        <h1>Novo usuário</h1>
+
+        <div class="mens"></div>
+        <div>
+          <label for="us">Nome: </label>
+          <input type="text" id="us" required />
+        </div>
+
+        <br />
+        <hr />
+        <br />
+
+        <div>
+          <label for="em">Email: </label>
+          <input type="text" id="em" required />
+        </div>
+
+        <br />
+        <hr />
+        <br />
+
+        <div class="mens_em"></div>
+        <div>
+          <label for="pao">Escolha seu pão</label>
+          <select name="id_pao" id="pao">
+            <option valie="#">--</option>
+            <option value="op1">Francês</option>
+            <option value="op2">Baguete</option>
+            <option value="op3">D'água</option>
+            <option value="op4">Massinha</option>
+          </select>
+        </div>
+        <div class="cont2">
+          <input class="btn" type="submit" value="Enviar" />
+        </div>
+      </form>
+
+      <ul id="users"></ul>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
